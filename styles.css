@@ -29,7 +29,7 @@ body {
 
 .carousel {
     position: relative;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -56,6 +56,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     overflow: hidden;
+    
   }
 
   .carousel-slide {
@@ -70,6 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   .carousel-video {
@@ -127,8 +129,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 300px;
+    padding-bottom: 300px;
   }
   
   .card {
@@ -164,7 +166,7 @@ body {
     transition: transform 0.3s;
   }
   .card.open  {
-    height: 850px; /* Ajusta la altura según tus necesidades */
+    height: 1100px; /* Ajusta la altura según tus necesidades */
     background-image: none;
     
   }
@@ -183,7 +185,7 @@ body {
   
 
   .card.open .envelope {
-    height: 800px; /* Ajusta la altura según tus necesidades */
+    height: 1100px; /* Ajusta la altura según tus necesidades */
     background-image: none;
     padding-top: 20px;
     padding-bottom: 20px;
