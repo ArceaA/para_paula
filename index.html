@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Scriptina&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento&display=swap">
+</head>
+<body>
+  <div class="container">
+    <h1>Para mi pinguinita hermosa </h1>
+    
+ 
+        <section class="carousel" id="car">
+            <div class="slide">
+                <img src="1.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="2.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <img src="5.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="6.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="9.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="10.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="13.jpg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <img src="14.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="15.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="16.jpg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+                <img src="17.jpg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <img src="18.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="20.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="21.jpg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+                <img src="22.jpg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <img src="23.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="24.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="25.jpg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+                <img src="26.jpeg" alt="Imagen 4">
+            </div>
+            <div class="slide">
+                <img src="27.jpeg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="28.jpeg" alt="Imagen 3">
+            </div>
+            <div class="slide">
+                <img src="29.jpg" alt="Imagen 4">
+            </div>
+        </section>
+        <script>
+            // JavaScript para el carrusel de imágenes
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+    
+            function showSlide(n) {
+                slides[currentSlide].style.display = 'none';
+                currentSlide = (n + slides.length) % slides.length;
+                slides[currentSlide].style.display = 'block';
+            }
+    
+            function nextSlide() {
+                showSlide(currentSlide + 1);
+            }
+    
+            setInterval(nextSlide, 1000); // Cambiar de imagen cada 1 segundos
+        </script>
+      
+    <div class="card-container">
+        <div class="card">
+          <div class="envelope">
+            <div class="envelope-front">
+
+                <p>Hola mi amor¿como estas ? espero que bien y que estes teniendo el mejor de  los dias .</p>
+                <p>a</p>
+                <p>b</p>
+                <p>c</p>
+                <p>a</p>
+                <p>c</p>
+                <p>c</p>
+                <p>c</p>
+                <p>c</p>
+                <p>c</p>
+                <p>c</p>
+                <p>c</p>
+                <p>v</p>
+                <p>v</p>
+                <p>a</p>
+                <p>a</p>
+                <p>a</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  <!-- Carrusel de videos -->
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <div class="carousel-video-wrapper">
+        <video id="video1" controls class="carousel-video">
+          <source src="VID-12.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video2" controls class="carousel-video">
+          <source src="VID-13.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-4.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-6.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-5.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-8.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-9.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-10.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-video-wrapper">
+        <video id="video3" controls class="carousel-video">
+          <source src="VID-11.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- Agrega más elementos carousel-video-wrapper para cada nuevo video -->
+    </div>
+    <div class="carousel-arrows">
+      <div class="carousel-arrow" onclick="prevVideo()">&lt;</div>
+      <div class="carousel-arrow" onclick="nextVideo()">&gt;</div>
+    </div>
+  </div>
+
+  <script>
+    var currentVideoIndex = 0;
+    var videos = document.querySelectorAll('.carousel-video');
+    var slide = document.querySelector('.carousel-slide');
+
+    function showVideo(index) {
+      videos[currentVideoIndex].pause();
+      videos[currentVideoIndex].currentTime = 0;
+      videos[index].play();
+      currentVideoIndex = index;
+        
+            var videoWidth = videos[index].videoWidth;
+            slide.style.transform = 'translateX(' + (-(videoWidth +120)* index) + 'px)';
+        
+
+    }
+
+    function nextVideo() {
+      var newIndex = (currentVideoIndex + 1) % videos.length;
+      showVideo(newIndex);
+    }
+
+    function prevVideo() {
+      var newIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
+      showVideo(newIndex);
+    }
+
+    // Mostrar el primer video al cargar la página
+    showVideo(currentVideoIndex);
+ </script>
+    <div class="time-counter">
+      <p>Tiempo transcurrido desde el 17 de febrero:</p>
+      <div id="clock">
+        <span class="days">0</span> días,
+        <span class="hours">0</span> horas,
+        <span class="minutes">0</span> minutos,
+        <span class="seconds">0</span> segundos
+      </div>
+    </div>
+    <div style="padding-left: 30px;">
+        <p>Este es el tiempo que te he amadooo y lo que falta por venir </p>
+     <img src="hemosho.png" alt="hemosho" >
+    </div>
+     
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
